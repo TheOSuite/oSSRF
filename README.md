@@ -1,10 +1,10 @@
-# eSSRF.py
+# oSSRF.py
 ```markdown
-# eSSRF Vulnerability Tester
+# oSSRF Vulnerability Tester
 
 ## Overview
 
-The eSSRF Vulnerability Tester is a Python-based tool designed to identify Server-Side Request Forgery (SSRF) vulnerabilities in web applications. It tests a target application's ability to fetch external or internal resources based on user-supplied input, using various protocols and encoding techniques to bypass potential filters.
+The oSSRF Vulnerability Tester is a Python-based tool designed to identify Server-Side Request Forgery (SSRF) vulnerabilities in web applications. It tests a target application's ability to fetch external or internal resources based on user-supplied input, using various protocols and encoding techniques to bypass potential filters.
 
 The tool includes a controlled target server to detect blind SSRF where the target application doesn't directly display the fetched content. It also analyzes the target application's HTTP response for indicators of successful or failed connection attempts, particularly useful for Gopher and `file://` protocols.
 
@@ -45,10 +45,10 @@ A Graphical User Interface (GUI) is provided using Tkinter for ease of use.
 
 1.  **Clone the repository (or download the script):**
     ```bash
-    git clone https://github.com/fish-hue/eSSRF.git 
-    cd eSSRF # Change to the script directory
+    git clone [https://github.com/TheOSuite/oSSRF.git]
+    cd oSSRF # Change to the script directory
     ```
-    Or simply download the Python file eSSRF.py
+    Or simply download the Python file oSSRF.py
 
 2.  **Install dependencies:**
     ```bash
@@ -65,7 +65,7 @@ The tool can be run with a GUI.
 Execute the script directly:
 
 ```bash
-python eSSRF.py
+python oSSRF.py
 ```
 
 This will open the graphical interface.
@@ -114,14 +114,4 @@ The results are displayed in the "Results" tab of the GUI and can be saved to a 
 ## Disclaimer
 
 This tool is intended for **educational and ethical security testing purposes only**. Use it responsibly and only on systems you have explicit permission to test. The author is not responsible for any misuse or damage caused by this tool.
-
-## Contributing
-
-Contributions are welcome! If you find bugs, want to add new features (like more payload types, encoding techniques, or analysis patterns), or improve the code, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (Note: You would need to create a LICENSE file with the MIT license text).
-
-```
 
