@@ -2,6 +2,9 @@
 
 # oSSRF Vulnerability Tester
 
+![GitHub License](https://img.shields.io/github/license/TheOSuite/oXSS)
+![Python Version](https://img.shields.io/badge/python-3.13-blue)
+
 ## Overview
 
 The oSSRF Vulnerability Tester is a Python-based tool designed to identify Server-Side Request Forgery (SSRF) vulnerabilities in web applications. It tests a target application's ability to fetch external or internal resources based on user-supplied input, using various protocols and encoding techniques to bypass potential filters.
